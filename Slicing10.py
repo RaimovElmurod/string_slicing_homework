@@ -8,4 +8,6 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return s[k:n:]
+print(main("codeschooluz",5,2))
+print(main("apple",3,2))
